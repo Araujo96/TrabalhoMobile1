@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Hello Word</string>
+    <string name="mensagem">Essa é uma mensagem do futuro</string>
+    <string name="login">Login</string>
+    <string name="logar">LOGAR</string>
+    <string name="boneco_sorrindo">Boneco Sorrindo</string>
+    <string name="mensagemLoginOk">Login Realizado com Sucesso</string>
+    <string name="mensagemLogin_Falha">Login Falhou!</string>
+    <string name="senha">senha</string>
+    <string name="altura">Altura</string>
+    <string name="peso">Peso</string>
+    <string name="calculadora_imc">Calculadora IMC</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">Resultado</string>
+    <string name="alterar_altura">Alterar Altura</string>
+    <string name="alterar_peso">Alterar Peso</string>
+</resources>
