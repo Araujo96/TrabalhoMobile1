@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Hello Word</string>
+    <string name="app_name">Calculadora IMC</string>
     <string name="mensagem">Essa é uma mensagem do futuro</string>
     <string name="login">Login</string>
     <string name="logar">LOGAR</string>

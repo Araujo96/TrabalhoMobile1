@@ -13,6 +13,10 @@ class ActivityRecebe : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recebe)
+        val botaoCancelar:Button = findViewById(R.id.botaoCancelar)
+        botaoCancelar.setOnClickListener {
+            voltarTela()
+        }
         val botaoAlterar: Button = findViewById(R.id.AlterarDados);
         botaoAlterar.setOnClickListener {
             val dadoPassado:TextView? = findViewById(R.id.dadoPassado)
@@ -33,5 +37,9 @@ class ActivityRecebe : AppCompatActivity() {
 
             finish()
         }
+    }
+    private fun voltarTela(){
+        val voltar = Intent(this,MainActivity::class.java)
+        startActivity(voltar)
     }
 }
