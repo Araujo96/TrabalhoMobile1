@@ -65,7 +65,6 @@ class MainActivity : AppCompatActivity() {
     private fun calc(peso: Float, altura: Float, resultadoFinal: TextView ) {
         val alt = altura.times(altura)
         val res = peso.div(alt)
-        resultadoFinal.text = (res*10000).toString()
         if(res*10000 < 16){
             resultadoFinal.text = "Magreza Grave seu IMC é de:${res*10000}"
         }else if(res*10000 >= 16 && res*10000 <17){
